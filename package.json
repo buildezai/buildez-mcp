@@ -1,6 +1,6 @@
 {
   "name": "buildez-mcp",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "MCP Server for Buildez.ai - Build websites with AI",
   "main": "dist/index.js",
   "bin": {
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/buildez/buildez-mcp"
+    "url": "https://github.com/buildezai/buildez-mcp"
   },
   "homepage": "https://buildez.ai",
   "engines": {
