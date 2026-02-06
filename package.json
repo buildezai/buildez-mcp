@@ -1,0 +1,51 @@
+{
+  "name": "buildez-mcp",
+  "version": "1.2.2",
+  "description": "MCP Server for Buildez.ai - Build websites with AI",
+  "main": "dist/index.js",
+  "bin": {
+    "buildez-mcp": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "buildez",
+    "website-builder",
+    "ai",
+    "claude",
+    "cursor",
+    "vscode",
+    "copilot",
+    "model-context-protocol"
+  ],
+  "author": "Buildez.ai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buildez/buildez-mcp"
+  },
+  "homepage": "https://buildez.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
